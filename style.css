@@ -1,3 +1,6 @@
 h3{
     color:red;
+    height: 200px;
+    width: 500px;
+    border:2px solid black;
 }
