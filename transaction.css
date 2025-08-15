@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    }
+ 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar{
+    
+    padding: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container-fluid{
+    background-color: rgb(58, 146, 240);
+    height: 3rem;
+}
+.alink{
+    color: white;
+}
+
+#scanner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+#scanner{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid black;
+}
+/* #transaction_btn{
+    width: 10%;
+    display: block;
+    
+    margin-top: 3rem;
+} */
+#tbtn{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(58, 146, 240);
+    color: white;
+}
+#checkbalance{
+    height: 25rem;
+    width: 100%;
+    background-color: #03045E;
+    display: flex;
+    justify-content: space-around;
+}
+.cd>img{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 4rem;
+    padding-top: 1rem;
+}
+.cd{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 2rem;
+    padding-bottom:16rem;
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+}
+#downloadbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
