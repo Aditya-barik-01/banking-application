@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    }
+ 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container-fluid{
+    background-color: rgb(58, 146, 240);
+    height: 3rem;
+    
+    
+}
+.alink{
+    color: white;
+}
+#about_img{
+    height: 33rem;
+    width: 100%;
+    display: block;
+    margin-top: 0;
+}
+#box1{
+    position: relative;
+    bottom: 3rem;
+    
+}
+#box2{
+    position: relative;
+    bottom: 3rem;
+}
+.row{
+    padding: 0 10rem;
+    background-color: #caf0f8;
+    padding-bottom: 3rem;
+}
+.card{
+    background-color: whitesmoke;
+    backdrop-filter: blur(5px);
+    transition: box-shadow,transform 0.5s 0.1s ease-in ;
+}
+.card:hover{
+    box-shadow:1px 1px 20px 20px whitesmoke ;
+    transform: scale(1.1);
+}
+.navbar{
+    padding: 0;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+#map {
+    height: 500px; /* or 100vh */
+    width: 100%;
+    border: 1px solid rgb(81, 189, 224);
+}
+#search-box-container{
+    height: 20rem;
+    width: 100%;
+    background-color: #caf0f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#searchbox{
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    border: 1px solid rgb(81, 189, 224);
+    background-color: white;
+    
+}
+svg{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+}
