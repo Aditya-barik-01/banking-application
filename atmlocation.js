@@ -30,7 +30,7 @@ let atmMarkers = [];
 function fetchATMs(lat, lon) {
   const overpassQuery = `
     [out:json];
-    node["amenity"="atm"](around:10000, ${lat}, ${lon});  // 3000m = 3km radius
+    node["amenity"="atm"](around:100000, ${lat}, ${lon});  // 3000m = 3km radius
     out;
   `;
   const overpassUrl =

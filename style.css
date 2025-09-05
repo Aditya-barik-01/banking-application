@@ -15,10 +15,17 @@ html, body {
   overflow-x: hidden;
 }
 
-
+.dark {
+      background-color: black;
+      color: white;
+    }
+    .light {
+      background-color: "#3a92f0";
+      color: white;
+    }
 
 .container-fluid{
-    background-color: rgb(58, 146, 240);
+    background-color: #3a92f0;
     height: 3rem;
     
     
